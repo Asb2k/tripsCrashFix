@@ -1,0 +1,12 @@
+{
+	"name": "Trip's Crash Fix", 
+	"description": "Adds input validation to prevent crash when player joins game with custom/broken perk deck or rank.", 
+	"author": "Trip", 
+	"contact": "https://steamcommunity.com/id/0m9/", 
+	"version": "v6.7", 
+	
+	"hooks": [
+		{ "hook_id": "lib/tweak_data/skilltreetweakdata", "script_path": "init.lua" }
+		{ "hook_id": "lib/managers/skilltreemanager", "script_path": "init.lua" }
+	]
+}
