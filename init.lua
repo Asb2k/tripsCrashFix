@@ -1,5 +1,5 @@
 -- Trip's Crash Fix - Full Join Sanitizer
--- Covers UI + manager level crashes
+-- Covers UI and manager level crashes
 -- Logs + delayed chat messages
 
 local log_file_path = "mods/tripsCrashFix/crash_log.txt"
