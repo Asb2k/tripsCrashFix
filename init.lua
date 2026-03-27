@@ -56,7 +56,7 @@ function SkillTreeTweakData:get_specialization_icon_data(specialization_id, rank
 
         local peer_name = get_peer_name(peer_id)
         delayed_chat(
-            "[Trip's Crash Guard] Player '" .. peer_name .. "' has invalid specialization (" ..
+            "[Trip's Crash Fix] Player '" .. peer_name .. "' has invalid specialization (" ..
             tostring(specialization_id) .. ") - sanitized.",
             "spec_missing"
         )
@@ -77,7 +77,7 @@ function SkillTreeTweakData:get_specialization_icon_data(specialization_id, rank
 
         local peer_name = get_peer_name(peer_id)
         delayed_chat(
-            "[Trip's Crash Guard] Player '" .. peer_name .. "' has invalid perk rank (" ..
+            "[Trip's Crash Fix] Player '" .. peer_name .. "' has invalid perk rank (" ..
             tostring(rank) .. ") - sanitized.",
             "rank_missing"
         )
