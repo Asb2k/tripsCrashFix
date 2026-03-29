@@ -3,7 +3,7 @@
     "description": "Adds input validation to prevent crashes from invalid perk decks/ranks.",
     "author": "Trip",
     "contact": "https://steamcommunity.com/id/0m9/",
-    "version": "v7.0",
+    "version": "v1.1",
 
     "hooks": [
         { "hook_id": "lib/setups/setup", "script_path": "core.lua" },
