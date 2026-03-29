@@ -51,7 +51,7 @@ function SkillTreeTweakData:get_specialization_icon_data(specialization_id, rank
         return default_icon
     end
 
-    local ok, result = pcall(original_icon_data, self, specialization_id, rank)
+    local ok, result = pcall(original_icon_data, self, specialization_id, rank, peer_id)
 
     if ok then
         return result
